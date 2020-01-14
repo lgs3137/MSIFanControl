@@ -19,4 +19,4 @@
 ## Change Log:
 
 - 2020.01.14
-	- 机械革命S1（MSI Laptop） for macOS Control Fan.
+	- macOS Fan Control for 机械革命S1(MSI Laptop).
