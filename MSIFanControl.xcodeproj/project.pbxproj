@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5214FDAD230FF3A200E33053 /* MSIFanService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5214FDAA230FF3A100E33053 /* MSIFanService.cpp */; };
+		5214FDAE230FF3A200E33053 /* MSIFanService.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5214FDAB230FF3A200E33053 /* MSIFanService.hpp */; };
+		AE4932AD23C1887400121D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4932AC23C1887400121D2B /* AppDelegate.swift */; };
+		AE4932AF23C1887400121D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4932AE23C1887400121D2B /* ViewController.swift */; };
+		AE4932B123C1887800121D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4932B023C1887800121D2B /* Assets.xcassets */; };
+		AE4932C223C18B6400121D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4932C023C18B6400121D2B /* Main.storyboard */; };
+		AEF25A8323C8673300C9C29C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEF25A8123C8673300C9C29C /* main.cpp */; };
+		AEF25A8823C8812A00C9C29C /* MSIECControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF25A8723C8812A00C9C29C /* MSIECControl.h */; };
+		AEF25A8923C88C4C00C9C29C /* MSIECControl in Resources */ = {isa = PBXBuildFile; fileRef = AEF25A7A23C866F500C9C29C /* MSIECControl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7897E123C72FED005885B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5214FD95230FF31800E33053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5214FD9D230FF31800E33053;
+			remoteInfo = MSIFanService;
+		};
+		AEF25A8523C87EA300C9C29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5214FD95230FF31800E33053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF25A7923C866F500C9C29C;
+			remoteInfo = MSIECControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEF25A7823C866F500C9C29C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5214FD9E230FF31800E33053 /* MSIFanService.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSIFanService.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		5214FDA9230FF3A100E33053 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5214FDAA230FF3A100E33053 /* MSIFanService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MSIFanService.cpp; sourceTree = "<group>"; };
+		5214FDAB230FF3A200E33053 /* MSIFanService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MSIFanService.hpp; sourceTree = "<group>"; };
+		AE4932AA23C1887400121D2B /* MSIFanControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSIFanControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4932AC23C1887400121D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4932AE23C1887400121D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE4932B023C1887800121D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4932B523C1887800121D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4932B623C1887800121D2B /* MSIFanControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MSIFanControl.entitlements; sourceTree = "<group>"; };
+		AE4932C123C18B6400121D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF25A7A23C866F500C9C29C /* MSIECControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MSIECControl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF25A8123C8673300C9C29C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEF25A8723C8812A00C9C29C /* MSIECControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIECControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5214FD9B230FF31800E33053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4932A723C1887400121D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF25A7723C866F500C9C29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5214FD94230FF31800E33053 = {
+			isa = PBXGroup;
+			children = (
+				5214FDA0230FF31800E33053 /* MSIFanService */,
+				AEF25A7B23C866F500C9C29C /* MSIECControl */,
+				AE4932AB23C1887400121D2B /* MSIFanControl */,
+				5214FD9F230FF31800E33053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5214FD9F230FF31800E33053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5214FD9E230FF31800E33053 /* MSIFanService.kext */,
+				AE4932AA23C1887400121D2B /* MSIFanControl.app */,
+				AEF25A7A23C866F500C9C29C /* MSIECControl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5214FDA0230FF31800E33053 /* MSIFanService */ = {
+			isa = PBXGroup;
+			children = (
+				5214FDAB230FF3A200E33053 /* MSIFanService.hpp */,
+				5214FDAA230FF3A100E33053 /* MSIFanService.cpp */,
+				5214FDA9230FF3A100E33053 /* Info.plist */,
+			);
+			path = MSIFanService;
+			sourceTree = "<group>";
+		};
+		AE4932AB23C1887400121D2B /* MSIFanControl */ = {
+			isa = PBXGroup;
+			children = (
+				AE4932C023C18B6400121D2B /* Main.storyboard */,
+				AE4932AC23C1887400121D2B /* AppDelegate.swift */,
+				AE4932AE23C1887400121D2B /* ViewController.swift */,
+				AE4932B023C1887800121D2B /* Assets.xcassets */,
+				AE4932B523C1887800121D2B /* Info.plist */,
+				AE4932B623C1887800121D2B /* MSIFanControl.entitlements */,
+			);
+			path = MSIFanControl;
+			sourceTree = "<group>";
+		};
+		AEF25A7B23C866F500C9C29C /* MSIECControl */ = {
+			isa = PBXGroup;
+			children = (
+				AEF25A8723C8812A00C9C29C /* MSIECControl.h */,
+				AEF25A8123C8673300C9C29C /* main.cpp */,
+			);
+			path = MSIECControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5214FD99230FF31800E33053 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF25A8823C8812A00C9C29C /* MSIECControl.h in Headers */,
+				5214FDAE230FF3A200E33053 /* MSIFanService.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5214FD9D230FF31800E33053 /* MSIFanService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5214FDA6230FF31800E33053 /* Build configuration list for PBXNativeTarget "MSIFanService" */;
+			buildPhases = (
+				5214FD99230FF31800E33053 /* Headers */,
+				5214FD9A230FF31800E33053 /* Sources */,
+				5214FD9B230FF31800E33053 /* Frameworks */,
+				5214FD9C230FF31800E33053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSIFanService;
+			productName = ClevoService;
+			productReference = 5214FD9E230FF31800E33053 /* MSIFanService.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		AE4932A923C1887400121D2B /* MSIFanControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4932B923C1887800121D2B /* Build configuration list for PBXNativeTarget "MSIFanControl" */;
+			buildPhases = (
+				AE4932A623C1887400121D2B /* Sources */,
+				AE4932A723C1887400121D2B /* Frameworks */,
+				AE4932A823C1887400121D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF25A8623C87EA300C9C29C /* PBXTargetDependency */,
+				AE7897E223C72FED005885B5 /* PBXTargetDependency */,
+			);
+			name = MSIFanControl;
+			productName = MSIFanControl;
+			productReference = AE4932AA23C1887400121D2B /* MSIFanControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF25A7923C866F500C9C29C /* MSIECControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF25A7E23C866F500C9C29C /* Build configuration list for PBXNativeTarget "MSIECControl" */;
+			buildPhases = (
+				AEF25A7623C866F500C9C29C /* Sources */,
+				AEF25A7723C866F500C9C29C /* Frameworks */,
+				AEF25A7823C866F500C9C29C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSIECControl;
+			productName = MSIECControl;
+			productReference = AEF25A7A23C866F500C9C29C /* MSIECControl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5214FD95230FF31800E33053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = lgs3137;
+				TargetAttributes = {
+					5214FD9D230FF31800E33053 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AE4932A923C1887400121D2B = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					AEF25A7923C866F500C9C29C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5214FD98230FF31800E33053 /* Build configuration list for PBXProject "MSIFanControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5214FD94230FF31800E33053;
+			productRefGroup = 5214FD9F230FF31800E33053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5214FD9D230FF31800E33053 /* MSIFanService */,
+				AEF25A7923C866F500C9C29C /* MSIECControl */,
+				AE4932A923C1887400121D2B /* MSIFanControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5214FD9C230FF31800E33053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4932A823C1887400121D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF25A8923C88C4C00C9C29C /* MSIECControl in Resources */,
+				AE4932B123C1887800121D2B /* Assets.xcassets in Resources */,
+				AE4932C223C18B6400121D2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5214FD9A230FF31800E33053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214FDAD230FF3A200E33053 /* MSIFanService.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4932A623C1887400121D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4932AF23C1887400121D2B /* ViewController.swift in Sources */,
+				AE4932AD23C1887400121D2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF25A7623C866F500C9C29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF25A8323C8673300C9C29C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7897E223C72FED005885B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5214FD9D230FF31800E33053 /* MSIFanService */;
+			targetProxy = AE7897E123C72FED005885B5 /* PBXContainerItemProxy */;
+		};
+		AEF25A8623C87EA300C9C29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF25A7923C866F500C9C29C /* MSIECControl */;
+			targetProxy = AEF25A8523C87EA300C9C29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE4932C023C18B6400121D2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4932C123C18B6400121D2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5214FDA4230FF31800E33053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5214FDA5230FF31800E33053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5214FDA7230FF31800E33053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MSIFanService/Info.plist;
+				MODULE_NAME = cn.lgs3137.MSIFanService;
+				MODULE_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIFanService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		5214FDA8230FF31800E33053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MSIFanService/Info.plist;
+				MODULE_NAME = cn.lgs3137.MSIFanService;
+				MODULE_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIFanService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		AE4932B723C1887800121D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MSIFanControl/MSIFanControl.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MSIFanControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSIFanControl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE4932B823C1887800121D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MSIFanControl/MSIFanControl.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MSIFanControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSIFanControl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AEF25A7F23C866F500C9C29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIECControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEF25A8023C866F500C9C29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lgs3137.MSIECControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5214FD98230FF31800E33053 /* Build configuration list for PBXProject "MSIFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214FDA4230FF31800E33053 /* Debug */,
+				5214FDA5230FF31800E33053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5214FDA6230FF31800E33053 /* Build configuration list for PBXNativeTarget "MSIFanService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214FDA7230FF31800E33053 /* Debug */,
+				5214FDA8230FF31800E33053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4932B923C1887800121D2B /* Build configuration list for PBXNativeTarget "MSIFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4932B723C1887800121D2B /* Debug */,
+				AE4932B823C1887800121D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF25A7E23C866F500C9C29C /* Build configuration list for PBXNativeTarget "MSIECControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF25A7F23C866F500C9C29C /* Debug */,
+				AEF25A8023C866F500C9C29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5214FD95230FF31800E33053 /* Project object */;
+}
