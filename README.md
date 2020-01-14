@@ -1,4 +1,4 @@
-# 机械革命S1（MSI Laptop） for macOS Control Fan
+# macOS Fan Control for 机械革命S1(MSI Laptop)
 
 ## 扣扣交流群：[45822629](https://jq.qq.com/?_wv=1027&k=5F5QsbT)
 
